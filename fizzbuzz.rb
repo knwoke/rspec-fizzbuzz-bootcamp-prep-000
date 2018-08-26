@@ -2,18 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz (int)
   if int % 3 == 0 # if the number int is divisible by 3
-    "Fizz" # Go fizz
+    return "Fizz" # Go fizz
   elsif int % 5 == 0
-    "Buzz"
+    return "Buzz"
   elsif int % 3&&5 == 0
-    "Fizzbuzz"
+    return "Fizzbuzz"
   else
-    nil
-  end
-end
-
-def fizzbuzz(int)
-  if int % 3 == 0 # if the number int is divisible by 3
-    "Fizz" # Go fizz
+    return nil
   end
 end
